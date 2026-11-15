@@ -1,7 +1,7 @@
 
 ### Table A: Single-dataset mixing and momentum controls on Qwen2.5-1.5B
 
-**Experimental setting.** Use Qwen2.5-1.5B, all eleven tasks, separate FO access, and the single-dataset stream construction documented above. Sweep $\lambda\in\{0, 0.1,0.2,\ldots,1.0\}$; $\lambda=0$ is five-step Muon.
+**Experimental setting.** Use Qwen2.5-1.5B, all eleven tasks, separate FO access, and the single-dataset stream construction documented above. Sweep $\lambda\in \lbrace 0, 0.1,0.2,\ldots,1.0 \rbrace $; $\lambda=0$ is five-step Muon.
 
 | Method | SST2 | RTE | CB | BoolQ | WSC | WiC | MultiRC | COPA | ReCoRD | SQuAD | DROP | Avg. |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
